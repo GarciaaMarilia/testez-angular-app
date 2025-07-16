@@ -17,7 +17,7 @@ import { expect } from '@jest/globals';
 import { LoginComponent } from './login.component';
 import { AuthService } from '../../services/auth.service';
 import { SessionService } from 'src/app/services/session.service';
-import { of, throwError } from 'rxjs';
+import { throwError } from 'rxjs';
 import { Router } from '@angular/router';
 
 describe('LoginComponent', () => {
@@ -80,24 +80,6 @@ describe('LoginComponent', () => {
     component.submit();
     expect(authServiceMock.login).not.toHaveBeenCalled();
   });
-
-  // it('submit should call authService.login and navigate on success', fakeAsync(() => {
-  //   const fakeResponse = { token: '123abc', user: { name: 'Marília' } };
-
-  //   authServiceMock.login.mockReturnValue(of(fakeResponse));
-  //   component.form.setValue({ email: 'user@test.com', password: '1234' });
-
-  //   component.submit();
-  //   tick(); // simula passagem de tempo para o subscribe acontecer
-
-  //   expect(authServiceMock.login).toHaveBeenCalledWith({
-  //     email: 'user@test.com',
-  //     password: '1234',
-  //   });
-  //   expect(sessionServiceMock.logIn).toHaveBeenCalledWith(fakeResponse);
-  //   expect(routerNavigateSpy).toHaveBeenCalledWith(['/sessions']);
-  //   expect(component.onError).toBe(false);
-  // }));
 
   it('submit should set onError to true if login fails', fakeAsync(() => {
     authServiceMock.login.mockReturnValue(

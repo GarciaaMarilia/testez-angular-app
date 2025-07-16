@@ -3,7 +3,6 @@ import { expect } from '@jest/globals';
 import { Router } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
-import { HttpClientModule } from '@angular/common/http';
 import { MatInputModule } from '@angular/material/input';
 import {
   ComponentFixture,
@@ -11,7 +10,7 @@ import {
   TestBed,
   tick,
 } from '@angular/core/testing';
-import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -61,8 +60,8 @@ describe('RegisterComponent', () => {
   it('should create an account successfully', () => {
     const formData = {
       email: 'user@example.com',
-      firstName: 'John',
-      lastName: 'Doe',
+      firstName: 'Test',
+      lastName: 'User',
       password: 'secret123',
     };
 
@@ -94,8 +93,8 @@ describe('RegisterComponent', () => {
   it('should set onError to true if registration fails', () => {
     const formData = {
       email: 'user@example.com',
-      firstName: 'John',
-      lastName: 'Doe',
+      firstName: 'Test',
+      lastName: 'User',
       password: 'secret123',
     };
 
@@ -118,8 +117,8 @@ describe('RegisterComponent', () => {
   it('should execute error callback when registration fails', fakeAsync(() => {
     const formData = {
       email: 'user@example.com',
-      firstName: 'John',
-      lastName: 'Doe',
+      firstName: 'Test',
+      lastName: 'User',
       password: 'secret123',
     };
 
