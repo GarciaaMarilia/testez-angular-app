@@ -12,27 +12,27 @@ import { RegisterRequest } from '../../interfaces/registerRequest.interface';
 export class RegisterComponent {
   public onError = false;
 
-  public form = this.fb.group({
-    email: ['', [Validators.required, Validators.email]],
-    firstName: [
-      '',
-      [Validators.required, Validators.min(3), Validators.max(20)],
-    ],
-    lastName: [
-      '',
-      [Validators.required, Validators.min(3), Validators.max(20)],
-    ],
-    password: [
-      '',
-      [Validators.required, Validators.min(3), Validators.max(40)],
-    ],
-  });
-
   constructor(
     private authService: AuthService,
     private fb: FormBuilder,
     private router: Router
   ) {}
+
+  public form = this.fb.group({
+    email: ['', [Validators.required, Validators.email]],
+    firstName: [
+      '',
+      [Validators.required, Validators.minLength(3), Validators.maxLength(20)],
+    ],
+    lastName: [
+      '',
+      [Validators.required, Validators.minLength(3), Validators.maxLength(20)],
+    ],
+    password: [
+      '',
+      [Validators.required, Validators.minLength(3), Validators.maxLength(40)],
+    ],
+  });
 
   public submit(): void {
     if (this.form.invalid) {
