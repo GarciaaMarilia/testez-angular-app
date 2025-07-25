@@ -10,7 +10,9 @@
     "e2e:ci": "ng run yoga:e2e-ci",
     "e2e:coverage": "npx nyc report --reporter=lcov --reporter=text-summary",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "start:coverage": "ng run yoga:serve-coverage",
+    "test:coverage": "npm run start:coverage && cypress run && nyc report --reporter=lcov --reporter=text-summary"
   },
   "private": true,
   "dependencies": {
@@ -30,7 +32,7 @@
     "zone.js": "0.11.8"
   },
   "devDependencies": {
-    "@angular-builders/custom-webpack": "^14.0.1",
+    "@angular-builders/custom-webpack": "^14.1.0",
     "@angular-builders/jest": "14.0.1",
     "@angular-devkit/build-angular": "14.2.1",
     "@angular-eslint/builder": "14.0.3",
@@ -40,6 +42,11 @@
     "@angular-eslint/template-parser": "14.0.3",
     "@angular/cli": "14.2.1",
     "@angular/compiler-cli": "14.2.0",
+    "@babel/core": "^7.28.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-typescript": "^7.27.1",
     "@briebug/jest-schematic": "4.0.0",
     "@cypress/code-coverage": "^3.10.0",
     "@cypress/schematic": "2.0.3",
@@ -48,6 +55,7 @@
     "@types/jest": "^28.1.8",
     "@typescript-eslint/eslint-plugin": "5.35.1",
     "@typescript-eslint/parser": "5.35.1",
+    "babel-loader": "^9.2.1",
     "babel-plugin-istanbul": "^7.0.0",
     "cypress": "10.4.0",
     "eslint": "8.23.0",
