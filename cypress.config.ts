@@ -9,7 +9,7 @@ export default defineConfig({
   video: false,
   e2e: {
     setupNodeEvents(on, config) {
-      require('@cypress/code-coverage/task')(on, config);
+      codeCoverageTask(on, config);
       return config;
     },
     baseUrl: 'http://localhost:4200',
