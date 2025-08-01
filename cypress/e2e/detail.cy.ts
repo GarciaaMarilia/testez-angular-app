@@ -96,8 +96,10 @@ describe('DetailComponent - Admin', () => {
 
     cy.contains('button', 'Save').click();
     cy.wait('@updateSession');
+    cy.wait(5000);
 
     cy.url().should('include', '/sessions');
+    cy.wait(1000);
   });
 });
 

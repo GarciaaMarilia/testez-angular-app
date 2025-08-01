@@ -7,6 +7,7 @@ export default defineConfig({
   screenshotsFolder: 'cypress/screenshots',
   fixturesFolder: 'cypress/fixtures',
   video: false,
+  defaultCommandTimeout: 3000,
   e2e: {
     setupNodeEvents(on, config) {
       codeCoverageTask(on, config);
