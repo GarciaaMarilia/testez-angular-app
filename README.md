@@ -47,26 +47,34 @@ By default the admin account is:
 
 ### Test
 
-#### E2E
+#### E2E Cypress
 
 Launching e2e test:
 
-> npm run e2e
+> npm run cypress:open
+
+or
+
+> npm run cypress:run
 
 Generate coverage report (you should launch e2e test before):
 
-> npm run e2e:coverage
+> npx nyc report --report=html
 
 Report is available here:
 
-> front/coverage/lcov-report/index.html
+> front/coverage/cypress/index.html
 
 #### Unitary test
 
 Launching test:
 
-> npm run test
+> npm run cypress:open
 
-for following change:
+Generate coverage report (you should launch e2e test before):
 
-> npm run test:watch
+> npm run test -- --coverage
+
+Report is available here:
+
+> front/coverage/jest/lcov-report/index.html
