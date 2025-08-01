@@ -1,0 +1,38 @@
+{
+  "extends": "@istanbuljs/nyc-config-typescript",
+  "all": true,
+  "include": [
+    "src/**/*.{js,ts}"
+  ],
+  "exclude": [
+    "src/**/*.spec.{js,ts}",
+    "src/**/*.e2e-spec.{js,ts}",
+    "src/**/*.po.{js,ts}",
+    "src/test.ts",
+    "src/polyfills.ts",
+    "src/environments/*.ts",
+    "src/main.ts",
+    "src/**/*.mock.ts",
+    "src/**/*.module.ts"
+  ],
+  "extension": [
+    ".js",
+    ".ts"
+  ],
+  "reporter": [
+    "html",
+    "json",
+    "lcov",
+    "text",
+    "text-summary"
+  ],
+  "report-dir": "coverage/cypress",
+  "temp-dir": ".nyc_output",
+  "cache": false,
+  "sourceMap": true,
+  "instrument": true,
+  "branches": 80,
+  "lines": 80,
+  "functions": 80,
+  "statements": 80
+}

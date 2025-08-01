@@ -1,1 +1,200 @@
-{}
+{
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/app.component.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/app.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/guards/auth.guard.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/guards/auth.guard.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/guards/unauth.guard.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/guards/unauth.guard.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/interceptors/jwt.interceptor.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/interceptors/jwt.interceptor.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/interfaces/sessionInformation.interface.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/interfaces/sessionInformation.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/interfaces/teacher.interface.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/interfaces/teacher.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/interfaces/user.interface.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/interfaces/user.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/services/session.service.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/services/session.service.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/services/teacher.service.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/services/teacher.service.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/services/user.service.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/services/user.service.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/components/me/me.component.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/components/me/me.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/components/not-found/not-found.component.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/components/not-found/not-found.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/interfaces/loginRequest.interface.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/interfaces/loginRequest.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/interfaces/registerRequest.interface.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/interfaces/registerRequest.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/services/auth.service.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/interfaces/session.interface.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/interfaces/session.interface.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/services/session-api.service.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/services/session-api.service.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/components/login/login.component.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/components/login/login.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/components/register/register.component.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/auth/components/register/register.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/components/detail/detail.component.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/components/detail/detail.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/components/form/form.component.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/components/form/form.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/components/list/list.component.ts": {
+    "path": "/home/marilia/Documentos/Master-OpenClassrooms/projet-05/Testez-une-application-full-stack/front/src/app/features/sessions/components/list/list.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  }
+}
