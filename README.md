@@ -59,7 +59,11 @@ or
 
 Generate coverage report (you should launch e2e test before):
 
-> npx nyc report --report=html
+> npm run start:coverage
+
+> npm run cypress:run
+
+> npx nyc report --reporter=html --report-dir=coverage
 
 Report is available here:
 

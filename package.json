@@ -12,7 +12,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "start:coverage": "ng run yoga:serve-coverage",
-    "test:coverage": "npm run start:coverage && cypress run && nyc report --reporter=lcov --reporter=text-summary"
+    "test:coverage": "npm run start:coverage && cypress run && nyc report --reporter=html --reporter=text-summary"
   },
   "private": true,
   "dependencies": {
