@@ -6,11 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Git clone:
 
-> git clone https://github.com/OpenClassrooms-Student-Center/P5-Full-Stack-testing
+> git clone https://github.com/GarciaaMarilia/testez-angular-app
 
 Go inside folder:
 
-> cd yoga
+> cd testez-angular-app
 
 Install dependencies:
 
@@ -67,7 +67,7 @@ Generate coverage report:
 
 Report is available here:
 
-> front/coverage/cypress/index.html
+> coverage/cypress/index.html
 
 #### Unitary test
 
@@ -81,4 +81,4 @@ Generate coverage report (you should launch e2e test before):
 
 Report is available here:
 
-> front/coverage/jest/lcov-report/index.html
+> coverage/jest/lcov-report/index.html
